@@ -1,0 +1,135 @@
+/*style css*/
+
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3, a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.banner {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.5) 35%), url('images/music.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    padding: 150px;
+    width: 700px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.70em;
+    margin-block-end: 0.70em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+.banner h1 {
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.88em;
+    margin-block-end: 0.88em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.banner h2 {
+    color: purple;
+    font-size: 30px;
+    opacity: 0.9;
+    margin-bottom: 40px;
+}
+
+.btn-blue {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.18em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+iframe[Attributes Style] {
+    width: 100%;
+    height: 500px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
